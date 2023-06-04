@@ -19,8 +19,10 @@ Run the .sh file if on a Unix-like (Linux, Mac and others), or the .bat file (cr
 
 Given the simplicity in the install scripts the manual process is recommended if there are multiple Firefox installations in use.
 
+## Configure
 
+The bar height is set by the --tab-max-height CSS variable at the top of the userChrome.css file.
 
-### Donate
+## Donate
 
 [Buy me a coffee](https://ko-fi.com/zyoxzsys)!

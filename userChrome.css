@@ -1,6 +1,6 @@
 :root {
-  --tab-min-height: 0 !important;
   --tab-max-height: 24px !important;
+  --tab-min-height: 0 !important;
   --urlbar-toolbar-height: var(--tab-max-height) !important;
 }
 
