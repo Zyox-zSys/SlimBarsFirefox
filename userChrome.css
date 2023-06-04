@@ -1,0 +1,37 @@
+:root {
+  --tab-min-height: 0 !important;
+  --tab-max-height: 24px !important;
+  --urlbar-toolbar-height: var(--tab-max-height) !important;
+}
+
+/* Bar resizing */
+#nav-bar,
+.toolbar-items,
+.titlebar-buttonbox-container,
+.tab-content,
+.tab-background,
+.tab-label-container {
+  height: var(--tab-max-height);
+}
+.tab-background {
+  margin: 0 !important;
+}
+.tab-secondary-label {
+  font-size: .5em !important;
+  margin: -.6em 0 .5em !important;
+}
+
+/* Selection highlight */
+#nav-bar toolbaritem,
+#nav-bar toolbarbutton {
+  --focus-outline: none;
+  --slimbar-highlight-color: color-mix(in srgb, var(--lwt-toolbar-field-highlight) 40%, var(--toolbar-bgcolor));
+  /* --toolbar-field-focus-background-color: var(--slimbar-highlight-color); */
+}
+#nav-bar toolbaritem:focus-visible,
+#nav-bar toolbarbutton:focus-visible,
+#nav-bar toolbaritem #identity-icon-box:focus-visible,
+#nav-bar toolbaritem #star-button-box:focus-visible,
+#nav-bar toolbaritem .unified-extensions-item-action-button:focus-visible {
+  background-color: var(--slimbar-highlight-color) !important;
+}
