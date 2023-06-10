@@ -2,7 +2,7 @@
 
 [Firefox](https://www.mozilla.org/en-US/firefox/) [userChrome.css file](https://www.userchrome.org/) that reduces the tab and navigation bar heights to increase available screen space. The thin bars have their buttons' and input fields' Tab selection highlight outline replaced by a browser accent color based background highlight, since the outline doesn't work well with the thinness.
 
-
+![Full-screen screenshot](SlimBarsFirefox_Screenshot.png "Reddit as banana for scale using XFCE4 on Arch Linux")
 
 ## Install
 
